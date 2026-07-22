@@ -69,3 +69,9 @@ Validate from the `lxd` skill directory:
 ```
 
 See [lxd/SKILL.md](lxd/SKILL.md) for details.
+
+---
+
+## Contributing
+
+Contributions are welcome — feel free to open a pull request with new skills or improvements to existing ones.
