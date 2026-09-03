@@ -10,6 +10,7 @@ A collection of GitHub Copilot agent skills for OpenStack / Sunbeam development 
 | [diagnose-sunbeam](diagnose-sunbeam/SKILL.md) | Diagnoses failed Sunbeam CI runs by analyzing sosreport tarballs, juju status files, and sunbeam CLI logs for multi-node OpenStack deployment failures on Canonical K8s |
 | [lxd](lxd/SKILL.md) | Workflows for LXD containers and VMs: launching Ubuntu instances, mounting host directories and storage volumes, defining reusable profiles and networks, and avoiding common automation hangs |
 | [plot-fio-results](plot-fio-results/README.md) | Generates a 4-panel matplotlib chart (throughput, IOPS, latency, scaling efficiency) from rally-ci-churn fio benchmark result files |
+| [reviewskill](reviewskill/SKILL.md) | Prepare and perform deterministic all-rubric code reviews for working-tree changes, branch/range diffs, GitHub pull requests, or complete repositories |
 | [sunbeam-networking](sunbeam-networking/SKILL.md) | Lab networking knowledge for Sunbeam/OpenStack: NICs, bonds, fabrics, VLANs, MAAS interface configuration, Juju space mapping, and onboarding guidance |
 
 ## OpenCode Install
@@ -47,6 +48,12 @@ ln -s ~/.config/opencode/openstack-agentic-skills ~/.config/opencode/skills/open
 4. Restart OpenCode
 
 5. Verify installation running `opencode` and executing the command `/skills`.
+
+---
+
+## Guidelines
+
+When adding or editing a skill, follow the conventions in [Skill Authoring Guide](docs/skill-writing-guidelines.md): narrow scope, a trigger-friendly description, a compact `SKILL.md`, explicit workflows, deterministic scripts, runtime validation, and a small set of evaluation prompts.
 
 ---
 
