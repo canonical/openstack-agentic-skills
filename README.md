@@ -12,6 +12,42 @@ A collection of GitHub Copilot agent skills for OpenStack / Sunbeam development 
 | [plot-fio-results](plot-fio-results/README.md) | Generates a 4-panel matplotlib chart (throughput, IOPS, latency, scaling efficiency) from rally-ci-churn fio benchmark result files |
 | [sunbeam-networking](sunbeam-networking/SKILL.md) | Lab networking knowledge for Sunbeam/OpenStack: NICs, bonds, fabrics, VLANs, MAAS interface configuration, Juju space mapping, and onboarding guidance |
 
+## OpenCode Install
+
+### Quick
+
+The fastest way is to tell OpenCode:
+
+```
+Clone https://github.com/canonical/openstack-agentic-skills to ~/.config/opencode/openstack-agentic-skills, then create directory ~/.config/opencode/plugins, then symlink ~/.config/opencode/openstack-agentic-skills to ~/.config/opencode/skills/openstack-agentic-skills, then restart opencode.
+```
+
+### Manual
+
+1. Create directories
+
+```
+mkdir -p ~/.config/opencode
+mkdir -p ~/.config/opencode/skills
+```
+
+2. Clone openstack-agentic-skills
+
+``` sh
+cd ~/.config/opencode
+git clone https://github.com/canonical/openstack-agentic-skills
+```
+
+3. Create skills symlink
+
+```
+ln -s ~/.config/opencode/openstack-agentic-skills ~/.config/opencode/skills/openstack-agentic-skills
+```
+
+4. Restart OpenCode
+
+5. Verify installation running `opencode` and executing the command `/skills`.
+
 ---
 
 ## cinder-spec-generator
