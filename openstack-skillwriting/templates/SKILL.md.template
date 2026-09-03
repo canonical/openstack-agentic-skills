@@ -1,0 +1,32 @@
+---
+name: <skill-name>
+description: <What this does and when to use it. Include likely trigger wording.>
+---
+
+# <Skill title>
+
+## Workflow
+
+1. Inspect:
+   - `<path/to/file>`
+   - `<path/to/test>`
+2. Run:
+   - `<command or script>`
+3. If needed, follow:
+   - [Reference material](reference.md)
+4. Validate:
+   - `<validator command>`
+5. If validation fails, fix and rerun (stop after 2-3 attempts and report).
+
+## Supporting files
+
+- [Reference material](reference.md) — edge cases and deeper rules
+- [Examples](examples.md) — realistic examples and eval prompts
+- `scripts/<name>` — deterministic helper
+- `templates/<name>` — output skeleton
+
+<!--
+Optional sections (add only when they help):
+  Inputs / Outputs / Stop and report if /
+  Use this skill when / Do not use this skill when
+-->

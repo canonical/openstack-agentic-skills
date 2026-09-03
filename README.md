@@ -8,6 +8,7 @@ A collection of GitHub Copilot agent skills for OpenStack / Sunbeam development 
 |---|---|
 | [cinder-spec-generator](cinder-spec-generator/SKILL.md) | Extracts oslo.config options from Cinder volume driver source and generates driver-spec YAML files for sunbeam-cinder-factory |
 | [diagnose-sunbeam](diagnose-sunbeam/SKILL.md) | Diagnoses failed Sunbeam CI runs by analyzing sosreport tarballs, juju status files, and sunbeam CLI logs for multi-node OpenStack deployment failures on Canonical K8s |
+| [openstack-skillwriting](openstack-skillwriting/SKILL.md) | Authors, reviews, and validates agent `SKILL.md` files following the Skill Authoring Guide (focused scope, triggerable description, compact main file, progressive disclosure, deterministic scripts, runtime validation, eval prompts) |
 | [lxd](lxd/SKILL.md) | Workflows for LXD containers and VMs: launching Ubuntu instances, mounting host directories and storage volumes, defining reusable profiles and networks, and avoiding common automation hangs |
 | [plot-fio-results](plot-fio-results/README.md) | Generates a 4-panel matplotlib chart (throughput, IOPS, latency, scaling efficiency) from rally-ci-churn fio benchmark result files |
 | [sunbeam-networking](sunbeam-networking/SKILL.md) | Lab networking knowledge for Sunbeam/OpenStack: NICs, bonds, fabrics, VLANs, MAAS interface configuration, Juju space mapping, and onboarding guidance |
